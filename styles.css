@@ -59,6 +59,10 @@ body {
 	margin-bottom: 20px;
 }
 
+.card h1:hover {
+	color: hsl(47, 88%, 63%);
+}
+
 .card > p {
 	color: hsl(0, 0%, 50%);
 	line-height: 1.5;
