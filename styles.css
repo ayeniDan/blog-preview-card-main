@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-color: hsl(47, 88%, 63%);
+	color: hsl(0, 0%, 50%);
+	font-size: 1rem;
+	font-weight: 500;
+	font-family: Figtree, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card {
+	max-width: 380px;
+	padding: 20px;
+	margin: 0 30px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 24px;
+	outline: 2px hsl(0, 0%, 7%) solid;
+	box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+	-webkit-box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+	-moz-box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+}
+
+.card > img {
+	width: 100%;
+	border-radius: 18px;
+	margin-bottom: 24px;
+}
+
+.card span {
+	display: inline-block;
+	font-weight: 800;
+	background-color: hsl(47, 88%, 63%);
+	color: hsl(0, 0%, 7%);
+	padding: 6px 12px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+}
+
+.card .date {
+	color: hsl(0, 0%, 7%);
+	margin-bottom: 24px;
+}
+
+.card h1 {
+	font-size: 1.3rem;
+	font-weight: 800;
+	color: hsl(0, 0%, 7%);
+	margin-bottom: 20px;
+}
+
+.card > p {
+	color: hsl(0, 0%, 50%);
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.user_deets {
+	display: flex;
+	align-items: center;
+}
+
+.user_deets img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.user_deets p {
+	font-weight: 800;
+	color: hsl(0, 0%, 7%);
+}
